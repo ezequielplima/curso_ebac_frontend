@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-size: 24px;
+}
+
+.container {
+    background-color: rgba(215, 201, 201, 0.479);
+    backdrop-filter: blur(10px) saturate(120%);
+    padding: 42px;
+    border-radius: 56px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    padding: 24px;
+    text-align: center;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    width: 66px;
+    cursor: pointer;
+    margin-top: 16px;
+    border: none;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+#lista-tarefas:hover {
+    text-decoration: line-through;
+    color: rgb(106, 83, 83);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
